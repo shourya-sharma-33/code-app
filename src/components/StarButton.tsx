@@ -1,7 +1,7 @@
 import { useAuth } from "@clerk/nextjs";
-import { Id } from "../../../convex/_generated/dataModel";
+import { Id } from "../../convex/_generated/dataModel";
 import { useMutation, useQuery } from "convex/react";
-import { api } from "../../../convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { Star } from "lucide-react";
 
 function StarButton({ snippetId }: { snippetId: Id<"snippets"> }) {
